@@ -34,8 +34,8 @@ public class Car extends Announcement {
     public String toString() {
         return "Car{" +
                 super.toString() +
-                "colour='" + colour + '\'' +
-                ", yearOfIssue=" + yearOfIssue +
+                ", Colour: " + colour +
+                ", Year of issue: " + yearOfIssue +
                 "} " ;
     }
 }

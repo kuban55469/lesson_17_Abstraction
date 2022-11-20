@@ -33,8 +33,8 @@ public class Phone extends Announcement {
     public String toString() {
         return "Phone{" +
                 super.toString() +
-                "product='" + product + '\'' +
-                ", memory=" + memory +
+                ", Product: " + product +
+                ", Memory:" + memory +
                 "} " ;
     }
 }

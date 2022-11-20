@@ -48,9 +48,9 @@ public abstract class Announcement {
     @Override
     public String toString() {
         return " " +
-                "name='" + name + '\'' +
-                ", image='" + image + '\'' +
-                ", price=" + price +
-                ", description='" + description + '\'' ;
+                "Name: " + name +
+                ", Image: " + image +
+                ", Price: " + price +
+                ", Description: " + description;
     }
 }

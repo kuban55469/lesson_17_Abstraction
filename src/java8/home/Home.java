@@ -33,8 +33,8 @@ public class Home extends Announcement {
     public String toString() {
         return "Home{" +
                 super.toString() +
-                "homeType='" + homeType + '\'' +
-                ", maxGuest=" + maxGuest +
+                ", Home Type: " + homeType +
+                ", Max Guest=" + maxGuest +
                 "} ";
     }
 }

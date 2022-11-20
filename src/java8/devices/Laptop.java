@@ -22,8 +22,8 @@ public class Laptop extends Announcement {
     @Override
     public String toString() {
         return "Laptop{" +
-                super.toString() +
-                "operationSystem='" + operationSystem + '\'' +
+                super.toString()  +
+                ", Operation System: " + operationSystem +
                 "} " ;
     }
 }
